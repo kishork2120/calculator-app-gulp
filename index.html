@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Calculator - app</title>
+  <style>
+    html,body{
+      height:100% !important;
+    }
+  </style>
+</head>
+
+<body class="flex items-center justify-center">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The Coldest Calculator</div>
+      <div class="my-4">
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="expression" type="number">
+      </div>
+      <p class="text-gray-700 text-base">
+        <div class="flex gap-4">
+          <div class="grid grid-cols-3 gap-4">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">1</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">2</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">3</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">4</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">5</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">6</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">7</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">8</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">9</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">0</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">.</button>
+            <button class="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">CE</button>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">*</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">/</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">+</button>
+          </div>
+        </div>
+        
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
