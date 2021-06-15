@@ -9,6 +9,7 @@ function eveluate(){
 
 window.onload = function(){
 
+  // listen for enter keypress
   document.querySelector('#expression').addEventListener('keyup',(event)=>{
     if(event.keyCode === 13){
       eveluate();
