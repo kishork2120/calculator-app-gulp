@@ -7,6 +7,7 @@ function eveluate(){
   document.querySelector('#expression').value = stringmath(document.querySelector('#expression').value);
 }
 
+// Onload function
 window.onload = function(){
 
   // listen for enter keypress
